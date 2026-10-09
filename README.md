@@ -40,8 +40,9 @@ https://developers.kakao.com 에 카카오 계정으로 로그인한 뒤 진행�
 7. **보안 → 클라이언트 시크릿**: **카카오 로그인** 줄이 **ON**이면 그 코드를 복사합니다(비즈니스 인증 코드가 아님). OFF면 필요 없습니다.
 
 ## 설치
-이 폴더에서 실행합니다.
 ```
+git clone https://github.com/windmoondreamer/dongguk-seat-alert.git
+cd dongguk-seat-alert
 npm install
 npm run setup
 ```
