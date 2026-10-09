@@ -1,0 +1,21 @@
+{
+  "name": "dongguk-seat-alert",
+  "version": "1.0.0",
+  "private": true,
+  "description": "동국대 도서관 열람실 빈자리 카카오톡 알림 (Cloudflare Workers, 알림 전용)",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "status": "node scripts/status.mjs",
+    "logs": "wrangler tail",
+    "off": "wrangler deploy --var ENABLED:false",
+    "on": "wrangler deploy",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.149.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
